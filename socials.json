@@ -9,13 +9,13 @@
        "x": 2880,
        "y": 37
     },
-    "name": "Global - Anatoscope Anatoscope mattermost - Mozilla Firefox",
+    "name": "mm",
     "percent": 0.6,
     "swallows": [
        {
-       "class": "^Firefox$"
+       "class": "^Firefox$",
        // "instance": "^Navigator$",
-       // "title": "^Global\\ \\-\\ Anatoscope\\ Anatoscope\\ mattermost\\ \\-\\ Mozilla\\ Firefox$",
+       "title": "mattermost"
        // "window_role": "^browser$"
        }
     ],
@@ -36,9 +36,9 @@
     "percent": 0.4,
     "swallows": [
        {
-       "class": "^Firefox$"
+       "class": "^Firefox$",
        // "instance": "^Navigator$",
-       // "title": "^Login\\ \\|\\ ProtonMail\\ \\-\\ Mozilla\\ Firefox$",
+       "title": "ProtonMail"
        // "window_role": "^browser$"
        }
     ],

@@ -225,9 +225,15 @@ workspace $ws9 output $sub
 workspace $ws10 output $sub
 
 # startup
-# firefox has the same name for every window at startup... so we rely on loading time
+exec firefox
+for_window [class="^Firefox$" title="Mozilla Firefox"] move container to workspace number $ws2
+
 exec --no-startup-id "i3-msg 'workspace 10; append_layout /home/adrien/.config/i3/socials.json'"
 exec firefox -new-window https://mm.anatoscope.com/
 exec firefox -new-window www.protonmail.com/login
 
 exec code
+for_window [class="^Code$" instance="^code$"] move container to workspace number $ws1
+
+
+assign [class="ClockWork"] 9
