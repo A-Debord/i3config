@@ -212,6 +212,9 @@ bindsym $mod+k exec bash ~/.config/i3/toggle-layout.sh
 default_border pixel
 default_floating_border pixel
 
+# screenshot
+bindsym $mod+shift+p exec gnome-screenshot -i 
+
 # ws default location
 workspace $ws1 output $main
 workspace $ws2 output $main
