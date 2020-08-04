@@ -242,3 +242,6 @@ exec code
 assign [class="ClockWork"] 9
 assign [class="AnatoRun"] 9
 assign [class="runSofa2"] 9
+
+# enable numlock on startup
+exec numlockx on
