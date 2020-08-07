@@ -206,6 +206,8 @@ mode "quick-terminal" {
         bindsym Escape [title="Life"] focus; scratchpad show; mode "default"
 }
 bindsym $mod+t scratchpad show; mode "quick-terminal"
+# in case of bad state
+bindsym $mod+shift+t scratchpad show
 
 # lock screen
 bindsym $mod+l exec i3lock -c 000000 -e
