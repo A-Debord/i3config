@@ -260,4 +260,4 @@ assign [class="runSofa2"] 9
 exec numlockx on
 
 # pad tap enabled
-exec xinput set-prop 14 302 1
+exec xinput set-prop 14 301 1
