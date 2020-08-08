@@ -222,6 +222,12 @@ default_floating_border pixel
 # screenshot
 bindsym $mod+shift+p exec gnome-screenshot -i 
 
+# backlight
+# had to fill /etc/X11/xorg.conf to make it work
+# https://unix.stackexchange.com/questions/301724/xbacklight-not-working
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+
 # ws default location
 # workspace $ws1 output $main
 # workspace $ws2 output $main
